@@ -1,0 +1,83 @@
+body{
+    background-color: #404040;
+    justify-content: center;
+    color: #efefef;
+}
+
+.struct{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5vh;
+}
+
+.titre{
+    justify-content: center;
+}
+
+.upForm {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftForm ,.rightForm{
+    width: 40%;
+}
+.leftForm{
+    margin-right: 10%;
+}
+
+.formulaire {
+    border: #efefef solid 5px;
+    margin-top: 10vh;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+input[type=range]::-moz-range-track { background: #999999 !important; }
+input[type=range]::-ms-track { background: #999999 !important; }
+input[type=range]::-webkit-slider-runnable-track {background: #999999 !important; }
+
+input[type=range]::-webkit-slider-thumb{ background: #efefef !important; }
+input[type=range]::-moz-range-thumb{ background: #efefef !important;}
+input[type=range]::-ms-thumb { background: #efefef !important; }
+
+input[type=number]{
+    background: #999999 !important;
+    border: 2px #efefef solid !important;
+    width: 50%;
+    height: 3vh;
+    margin-left: 5%;
+
+}
+
+.size{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+
+.downForm{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    align-items: center;
+}
+
+.result{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#valider{
+    background: #999999;
+}
+
+#valider:hover{
+    background: #efefef;
+    color: #404040;
+}
