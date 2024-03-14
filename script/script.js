@@ -36,11 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
         let coef = Math.round(10000.0 + size / 2.0);
         
         let res = Math.round(((u*((5*b+5*o+10*d+5*t+5*r)/5) *(size - 0.1* size)*0.5*haut)/(coef))*100) / 100.00;
-        res = Math.round(res / 5) * 5;
+
+        res = Math.ceil(res / 5) * 5;
+
         if(res <= 0){res = -1 }
         if((res <= 10)&&(res > 0)){res = 10}
 
-        console.log(res);
 
         let txt = document.getElementById("res");
         txt.textContent = "Prix estimé : " + res + " €";
