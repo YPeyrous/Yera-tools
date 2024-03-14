@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let coef = Math.round(10000.0 + size / 2.0);
         
-        let res = Math.round(((u*((5*b+5*o+10*d+5*t+5*r)/5) *(size - 0.1* size)*0.5*haut)/(coef))*100) / 100.00;
+        let res = Math.round(((u*((5*b+5*o+10*d+5*t+5*r)/3) *(size - 0.1* size)*0.5*haut)/(coef))*100) / 100.00;
 
         res = Math.ceil(res / 5) * 5;
 
